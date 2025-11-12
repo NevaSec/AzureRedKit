@@ -2,7 +2,7 @@
 
 **AzureRedKit** is a PowerShell-based enumeration and exploitation framework for Azure and Azure AD environments. It streamlines common offensive security workflows by automating reconnaissance, resource enumeration, and classic exploitation techniques.
 
-## 🎯 Purpose
+## Purpose
 
 AzureRedKit is primarily designed for:
 - **CTF** - Quickly enumerate and exploit Azure resources
@@ -13,7 +13,7 @@ While it can be used in penetration testing engagements, **this is not an OPSEC-
 
 > ⚠️ **Disclaimer**: AzureRedKit is designed for educational purposes and authorized security assessments only. Always ensure you have proper authorization before testing any Azure environment.
 
-## ✨ Features
+## Features
 
 ### 🔍 **Enumeration Modules**
 
@@ -85,7 +85,7 @@ Abuse VM extensions to gain local admin access:
        └── Azure-Exploit-VMExtension.ps1
 ```
 
-## 🚀 Usage
+## Usage
 
 ### **Launch AzureRedKit**
 
@@ -140,7 +140,7 @@ Connect-AzAccount
 [0] Exit
 ```
 
-## 📝 Command Logging
+## Command Logging
 
 AzureRedKit displays every executed PowerShell command in **magenta** `[CMD]` blocks:
 ```
@@ -155,7 +155,7 @@ AzureRedKit displays every executed PowerShell command in **magenta** `[CMD]` bl
 - Include individual commands in exam reports (see disclaimer below)
 - Learn Azure PowerShell syntax through practical examples
 
-## ⚠️ Exam & Report Disclaimer
+## Exam & Report Disclaimer
 
 While AzureRedKit significantly accelerates Azure assessments, **it is not a replacement for understanding the underlying techniques**.
 
@@ -176,7 +176,7 @@ While AzureRedKit significantly accelerates Azure assessments, **it is not a rep
 
 **Recommendation**: Use AzureRedKit as a **teaching tool** and **time-saver**, not a black box. Examiners expect you to demonstrate understanding of Azure security concepts.
 
-## 🔧 Requirements
+## Requirements
 
 - **PowerShell 5.1+**
 - **Azure PowerShell modules**:
@@ -189,7 +189,7 @@ While AzureRedKit significantly accelerates Azure assessments, **it is not a rep
   - [Invoke-PowerShellTcp.ps1](https://github.com/samratashok/nishang/blob/master/Shells/Invoke-PowerShellTcp.ps1) from Nishang
   - Netcat (nc.exe, nc64.exe, or ncat.exe)
 
-## 🫡 Credits
+## Credits
 
 - **Nishang** - Invoke-PowerShellTcp.ps1 reverse shell
 - **Altered Security** - CARTP certification and training content
