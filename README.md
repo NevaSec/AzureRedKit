@@ -55,7 +55,7 @@ Abuse VM extensions to gain local admin access:
 - **Session detection**: Automatically detects and reuses existing Azure/Graph sessions
 - **Token-based auth**: Supports AccessToken, GraphToken, KeyVaultToken, StorageToken
 
-## 📥 Installation
+## Installation
 
 1. **Download the repository**
 ```powershell
